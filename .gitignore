@@ -6,6 +6,10 @@ __pycache__/
 venv/
 env/
 
+# Private
+report/
+
+
 # LaTeX
 *.aux
 *.log
@@ -26,7 +30,9 @@ env/
 *.ilg
 
 # Generated plots (reproducible from code)
-*.png
+plots/*.png
+# Logisim screenshots are tracked
+!logisim/*.png
 
 # IDE
 .idea/
